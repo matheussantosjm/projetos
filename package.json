@@ -1,0 +1,17 @@
+{
+  "name": "orcaarq",
+  "version": "0.1.0",
+  "description": "Plataforma de orçamentos para arquitetos com lojas parceiras (máx. 3 por segmento).",
+  "main": "server/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --no-warnings server/index.js",
+    "dev": "node --no-warnings --watch server/index.js",
+    "seed": "node --no-warnings server/seed.js",
+    "test": "node --no-warnings --test test/*.test.js"
+  },
+  "engines": { "node": ">=22.5" },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
