@@ -1,0 +1,18 @@
+{
+  "name": "vitrine-corretor",
+  "version": "0.1.0",
+  "description": "Vitrine de imóveis para corretores autônomos, com controle de interessados.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node --no-warnings server/index.js",
+    "dev": "node --no-warnings --watch server/index.js",
+    "test": "node --no-warnings --test test/*.test.js",
+    "seed": "node --no-warnings server/seed.js"
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
