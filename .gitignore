@@ -3,3 +3,4 @@ data/
 *.db
 *.db-journal
 .env
+studio-matzu-video/studio_matzu_motion.mp4
